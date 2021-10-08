@@ -1,0 +1,71 @@
+banco
+programa {
+	funcao inicio() {
+		cadeia cpf
+		inteiro senha
+		inteiro op
+		inteiro saldo = 1000
+		inteiro saque, novosaldo, deposito
+		
+		
+	
+	escreva("Digite seu cpf: \n")
+	leia(cpf)
+        enquanto (
+                cpf != "08718069320"
+            )
+            {	escreva("Digite seu cpf novamente: \n")
+	                leia(cpf)}
+	
+	escreva("Digite sua senha de 4 digitos: \n")
+	leia(senha)
+	
+	     enquanto (
+                senha != 2305
+            )
+            {	escreva("Digite sua senha novamente: \n")
+	                leia(senha)}
+	                
+	       escreva ("===============================================\n")
+	       
+	       limpa()
+	       
+	       
+	   escreva("Menu\n")
+	   escreva("Escolha sua opção\n")
+	   escreva("1. Saque\n")
+	   escreva("2. Depósito\n")
+	   escreva("3. Consultar saldo\n")
+	   escreva("4. Sair")
+	   
+	   escreva("\nDigite sua opção: \n")
+	   leia(op)
+	   
+	   se (op == 1)
+	   {escreva("Digite o valor do seu saque: \n")
+	       leia(saque)
+	       novosaldo = saldo - saque
+	       saldo = novosaldo
+	       escreva ("Seu novo saldo :", saldo)
+	   }
+	   se (op == 2)
+	   {escreva("\nDigite o valor que deseja depositar: \n")
+	       leia(deposito)
+	       saldo = saldo + deposito
+	       escreva("Seu novo saldo: ", saldo)
+	   }
+	   se (op == 3)
+	   {escreva("Seu saldo : \n", saldo)}
+	   se (op == 4) 
+	   {escreva("Programa encerrado \n")}
+	   
+	       
+	       
+	       
+	  
+	   
+
+	   
+	   
+	}
+}
