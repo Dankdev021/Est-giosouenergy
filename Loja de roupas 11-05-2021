@@ -1,0 +1,55 @@
+programa {
+	funcao inicio() {
+	    real qtd_peca, cod_camisa, cod_short
+	    inteiro cod_peca
+	    real camisa = 90.0
+	    real calca = 80.0
+	    real tenis = 180.0
+	    real val_peca
+	    real valor
+		    escreva("========================================\n")
+		    escreva("            Daniel Store        \n")
+	    	escreva("========================================\n")
+		    escreva("O que deseja comprar ?\n")
+		    escreva("__________________\n")
+	        escreva("| 1. Camisa      |\n")
+	        escreva("| 2. Short       |\n")
+	        escreva("| 3. Tênnis      |\n")
+	        escreva("__________________\n")
+	            leia(cod_peca)
+	            se (cod_peca == 1) {
+	                escreva("__________________________\n")
+	                escreva("1. Camisa Gucci original..........100,00 R$\n")
+	                escreva("2. Camisa Armani original.........150,00 R$\n")
+	                    leia(cod_camisa)
+	                    se (cod_camisa == 1) {
+	                        escreva("Compra realizada!\n")
+	                        valor = 100.0
+	                        escreva("Valor ", valor, "R$")
+	                        
+	                    }
+	                        senao se (cod_camisa == 2) {
+	                            escreva("Compra realizada!\n")
+	                                valor = 150.0
+	                                escreva("Valor ", valor, "R$")
+	                        }
+	            }
+	            se (cod_peca == 2)  {
+	                 escreva("1. Short Louis Vitton...................150,00 R$\n")
+	                 escreva("2. Short Gucci ......................... 250,00 R$\n")
+	                    leia(cod_short)
+	                    se (cod_short == 1) {
+	                        escreva("Compra realizada!\n")
+	                        valor = 150.0
+	                        escreva("Valor", valor, "R$")
+	                    }
+	                        senao se (cod_short == 2) {
+	                            escreva("Compra realizada!\n") 
+	                            valor = 250.0
+	                            escreva ("Valor", valor,"R$")
+	                            
+	                        }
+	                    
+	             }  
+	}
+}
