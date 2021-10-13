@@ -1,9 +1,8 @@
- Escreva um programa que lê um valor inteiro (maior do que 1 e menor ou igual a 10) e exibe a tabuada (até 10) de multiplicação do número lido.
+1) Escreva um programa que lê um valor inteiro (maior do que 1 e menor ou igual a 10) e exibe a tabuada (até 10) de multiplicação do número lido.
 
 Funcao LeNumero(n1, n2:inteiro):inteiro;
 
-    
-  Lê um número inteiro no intervalo especificado (n1, n2) e o devolve. Cada vez que for digitado um número inválido (fora do intervalo especificado) a função
+Lê um número inteiro no intervalo especificado (n1, n2) e o devolve. Cada vez que for digitado um número inválido (fora do intervalo especificado) a função
 
 deve exibir a mensagem "Número inválido. Digite novamente!"
 
@@ -20,3 +19,8 @@ Procedimento Tabuada( n :inteiro); Recebe como parâmetro um número inteiro e e
  
 
 3)Faça um programa que leia um número inteiro e gere todos  os números primos entre 1 e este número fornecido, exibindo-os na tela. O programa deve ter uma sub-rotina (procedimento ou função) que determina se um determinado número é ou não primo. Números primos são aqueles que são somente divisíveis por 1 ou por eles mesmos.
+
+
+
+
+https://docs.google.com/presentation/d/1E3mtuBicVcUst38qp6T3xSnIRqFGMcRj7cXOqn-U61Q/edit?usp=sharing
