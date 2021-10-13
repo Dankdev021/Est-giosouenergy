@@ -1,0 +1,23 @@
+programa {
+	funcao inicio() {
+	    inteiro n1, n2
+	    inteiro  x = 0
+	    escreva("Digite um valor inteiro: \n")
+	    leia(n1)
+	    enquanto (n1 > 10)
+	         {escreva("Valor inválido, digite um valor entre 1 e 10\n") leia(n1)}
+	    escreva ("A tabuada de  ", n1,"\n")
+	    enquanto (x <= 10 )
+	    {   
+	        escreva(n1, " x ", x, " = ")
+	        escreva(ler_numero(n1 * x),"\n")
+	        x++
+	    }
+	}
+	funcao inteiro ler_numero (inteiro n1) {
+	    inteiro resultado, n2
+	     n2 = 1
+	    resultado = n1 * n2
+	    retorne (resultado)
+	}
+}
