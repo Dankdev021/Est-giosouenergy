@@ -1,0 +1,42 @@
+programa {
+	funcao inicio() {
+		inteiro coluna1[11]
+		inteiro coluna2[11]
+		inteiro i=1
+		inteiro y=1
+		escreva(escrevaNota())
+
+	}
+	funcao inteiro escrevaNota(){
+	    inteiro coluna1[11]
+	    inteiro coluna2[11]
+	    inteiro i=1
+	    inteiro y=1,z=1
+	    inteiro x=1
+	    
+	    enquanto(i<=10){
+	        escreva("Digite a ", i, "º nota: \n")
+	        leia(coluna1[i])
+	        i++
+	    }
+	    limpa()
+	        enquanto(y<=10){
+	            coluna2[y]=coluna1[y]*5
+	            y++
+	        }
+	                enquanto(x<=10){
+	                    escreva(coluna1[x]," \n")
+	                    x++
+	                }
+	               escreva("================================\n")
+	                        enquanto(z<=10){
+	                            escreva(coluna2[z], " \n")
+	                            z++
+	                        }
+	                            escreva("\n")
+	        retorne 0
+	    
+	        
+	    
+	}
+}
