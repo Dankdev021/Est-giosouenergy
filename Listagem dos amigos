@@ -1,0 +1,31 @@
+programa {
+	funcao inicio() {
+	    cadeia nome[6] 
+	    inteiro x = 1, y =  1
+	    escreva(tst())
+	    }
+	    funcao cadeia tst ()  {
+	        cadeia nome[6] 
+	        inteiro x = 1, y = 1
+	        enquanto (x <= 5) {
+	        escreva("Digite o ", x, "º nome de cinco amigos seus: \n") 
+	        leia(nome[x])
+	            x++
+	    }
+	  limpa()
+	  escreva("A lista dos seus amigos: \n")
+	    enquanto (y <= 5) {
+	        escreva(nome[y],"\n")
+	        y++
+	    }
+	    escreva("================================\n")
+	    escreva("A lista inversa dos seus amigos\n") 
+            escreva(nome[5],"\n")
+            escreva(nome[4], "\n")
+            escreva(nome[3], "\n")
+            escreva(nome[2], "\n")
+            escreva(nome[1], "\n")
+	    
+	    retorne " "
+	}
+}
