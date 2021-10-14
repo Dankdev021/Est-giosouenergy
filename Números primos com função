@@ -1,0 +1,24 @@
+programa {
+	funcao inicio() {
+	    inteiro n1 = 0, x = 0, y
+		escreva("Digite um número inteiro: \n" )
+		leia(n1)
+	   escreva(primos(n1))
+		
+	}
+	
+	funcao inteiro primos (inteiro n1) {
+	    inteiro resultado = n1
+	    inteiro x = 1
+	    enquanto (x <= n1) {
+	        se (x % 2 == 0) {
+	            escreva(x," Número não primo\n")
+	        }
+	        senao {
+	            escreva(x," Número primos\n")
+	        }
+	        x++
+	    }
+	    retorne 0
+	}
+}
